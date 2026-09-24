@@ -78,11 +78,12 @@ Your PDF file password will be cracked (it might take some time depending on you
 speed & password complexity):
 
 <img width="878" height="688" alt="password-cracked" src="https://github.com/user-attachments/assets/48559a8c-1299-4bf6-ae3b-b017ac27aa0b" />
+
 Now you can use this password to open your PDF file.
 
 
 <img width="958" height="642" alt="pdf1-opened" src="https://github.com/user-attachments/assets/68f1c63e-c776-4600-89c4-a2b0c7804e71" />
-Now you can use this password to open your PDF file.
+
 
 ## PASSWORD CRACKING WITH NETWORKWALKS TOOLS
 
@@ -139,10 +140,11 @@ passwords until it finds a match.
 Wait for the tool to finish. The cracked password will be shown on the screen.
 
 Note: The time taken depends on how simple or complex the password is.
-<img width="878" height="688" alt="password-cracked" src="https://github.com/user-attachments/assets/b52dd031-741a-48a1-9313-f365315a548f" />
+<img width="892" height="645" alt="password-cracked2" src="https://github.com/user-attachments/assets/e8a1f657-e8c1-4128-b292-1b2647c25a18" />
+
 ## STEP 8
 Open the locked PDF file and enter the cracked password.
-Enter password1 (which you have just cracked):
+Enter good-luck (which you have just cracked):
 
 ## STEP 9
 Your PDF file will open. You have completed the lab.
