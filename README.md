@@ -48,12 +48,11 @@ Download the encrypted PDF file to your PC:
 
 Open the hash website & upload your pdf file to find its hash:
 https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php
-<img width="850" height="327" alt="hashcrack" src="https://github.com/user-attachments/assets/a4d674d6-d0c1-4042-8622-0f756fbb5c06" />
 
 Browse the PDF file & click on Upload:
 
 Select & copy the hash value:
-<img width="638" height="134" alt="hash1" src="https://github.com/user-attachments/assets/cccde9de-852f-4e64-9615-e11684760bad" />
+<img width="850" height="327" alt="hashcrack" src="https://github.com/user-attachments/assets/a4d674d6-d0c1-4042-8622-0f756fbb5c06" />
 
 
 Open notepad:
@@ -63,6 +62,7 @@ Paste the hash value inside notepad:
 Save as text file:
 
 Save the file with name hash1.txt:
+
 <img width="638" height="134" alt="hash1" src="https://github.com/user-attachments/assets/9bcd8033-35a1-4bef-9afc-c6c1ac55c56e" />
 
 Open Johnny again:
@@ -77,11 +77,13 @@ Click on ‘Start new attack’:
 Your PDF file password will be cracked (it might take some time depending on your computer
 speed & password complexity):
 
-<img width="958" height="642" alt="pdf1-opened" src="https://github.com/user-attachments/assets/68f1c63e-c776-4600-89c4-a2b0c7804e71" />
-
-<img width="964" height="643" alt="flag-captured" src="https://github.com/user-attachments/assets/c76ff8ea-d3ed-4c0b-959e-3df3763722ee" />
-
+<img width="878" height="688" alt="password-cracked" src="https://github.com/user-attachments/assets/48559a8c-1299-4bf6-ae3b-b017ac27aa0b" />
 Now you can use this password to open your PDF file.
+
+
+<img width="958" height="642" alt="pdf1-opened" src="https://github.com/user-attachments/assets/68f1c63e-c776-4600-89c4-a2b0c7804e71" />
+Now you can use this password to open your PDF file.
+
 ## PASSWORD CRACKING WITH NETWORKWALKS TOOLS
 
 ## Background
@@ -122,11 +124,12 @@ value that starts with $pdf$...
 ## STEP 4
 Copy the full hash value.
 Note: Copy the complete hash starting from $pdf$. Do not miss any part of it.
-
+<img width="931" height="649" alt="hash-created" src="https://github.com/user-attachments/assets/128fb04e-1cb9-46b8-81b9-a198a5dc0ba8" />
 ## STEP 5
 Open the Networkwalks Password Cracker in your web browser:
 
 https://networkwalks.com/password-cracker/
+
 
 ## STEP 6
 Paste the hash value into the Password Cracker and start the attack. The tool will try different
@@ -143,3 +146,4 @@ Enter password1 (which you have just cracked):
 
 ## STEP 9
 Your PDF file will open. You have completed the lab.
+<img width="964" height="643" alt="flag-captured" src="https://github.com/user-attachments/assets/f3756ee9-79f7-4fe9-ab23-7494eabdc398" />
