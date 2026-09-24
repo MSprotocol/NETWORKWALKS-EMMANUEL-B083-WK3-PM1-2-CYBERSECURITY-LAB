@@ -1,63 +1,7 @@
 # NETWORKWALKS-EMMANUEL-B083-WK3-PM1-2-CYBERSECURITY-LAB
 
 ## Password Cracking with JTR and Other Tools
-
-> ⚠️ Use these techniques only in authorized lab, CTF, or security assessment environments.
-
-### Objective
-Practice offline password auditing and hash analysis using:
-- **John the Ripper (JTR)**
-- **Hashcat**
-- **Hydra** (for controlled online login testing)
-
-### Common Workflow
-1. **Identify the hash type** with `hashid` or `hash-identifier`.
-2. **Prepare a wordlist** (for example, `rockyou.txt`).
-3. **Run a dictionary attack** first.
-4. **Apply rules/masks** if dictionary-only fails.
-5. **Document recovered credentials** and defensive recommendations.
-
-### John the Ripper (JTR)
-#### Basic crack
-```bash
-john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
-```
-
-#### Show cracked passwords
-```bash
-john --show hashes.txt
-```
-
-#### Force hash format when needed
-```bash
-john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
-```
-
-### Hashcat
-#### Dictionary mode
-```bash
-hashcat -m 0 -a 0 hashes.txt /usr/share/wordlists/rockyou.txt
-```
-
-#### Mask attack example
-```bash
-hashcat -m 0 -a 3 hashes.txt ?l?l?l?l?d?d
-```
-
-### Hydra (authorized online testing)
-```bash
-hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://TARGET_IP
-```
-
-### Reporting Checklist
-- Hash type identified
-- Tool and attack mode used
-- Password(s) recovered
-- Time taken
-- Account lockout/detection observations
-- Mitigation recommendations (MFA, strong password policy, lockout thresholds)
-
-- WEEK 3 | PROJECT MODULE 1
+## WEEK 3 | PROJECT MODULE 1
 
 ## PASSWORD CRACKING WITH JTR
 
@@ -119,20 +63,20 @@ Paste the hash value inside notepad:
 Save as text file:
 
 Save the file with name hash1.txt:
+<img width="638" height="134" alt="hash1" src="https://github.com/user-attachments/assets/9bcd8033-35a1-4bef-9afc-c6c1ac55c56e" />
 
 Open Johnny again:
 
 Click on ‘Open password file’:
 
 Browse to the hash1.txt file that you have just saved & click on Open:
-<img width="638" height="134" alt="hash1" src="https://github.com/user-attachments/assets/9bcd8033-35a1-4bef-9afc-c6c1ac55c56e" />
 
 Click on ‘Start new attack’:
-<img width="931" height="649" alt="hash-created" src="https://github.com/user-attachments/assets/490f423a-d5c3-4496-a31a-880fb9a11401" />
+
 
 Your PDF file password will be cracked (it might take some time depending on your computer
 speed & password complexity):
-<img width="878" height="688" alt="password-cracked" src="https://github.com/user-attachments/assets/b52dd031-741a-48a1-9313-f365315a548f" />
+
 <img width="958" height="642" alt="pdf1-opened" src="https://github.com/user-attachments/assets/68f1c63e-c776-4600-89c4-a2b0c7804e71" />
 
 <img width="964" height="643" alt="flag-captured" src="https://github.com/user-attachments/assets/c76ff8ea-d3ed-4c0b-959e-3df3763722ee" />
@@ -192,7 +136,7 @@ passwords until it finds a match.
 Wait for the tool to finish. The cracked password will be shown on the screen.
 
 Note: The time taken depends on how simple or complex the password is.
-
+<img width="878" height="688" alt="password-cracked" src="https://github.com/user-attachments/assets/b52dd031-741a-48a1-9313-f365315a548f" />
 ## STEP 8
 Open the locked PDF file and enter the cracked password.
 Enter password1 (which you have just cracked):
